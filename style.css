@@ -1,21 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .cabeçalho {
-    background-color: rgb(244, 244, 187);
-    color: black;
+    background-color: #804674;
+    color: white;
     display: flex;
     justify-content: space-around;
+    padding: 24px 0;
 }
+
 .cabeçalho-imagem {
     width: 5%;
     height: 5%;
 }
 
-
 .item-lista {
     display: inline-block;
     font-size: 25px;
-    text-align: justify;
+    padding: 0 0 0 20px;
 }
-* {
-    margin: 0%;
-    padding: 0%;
+.genero {
+    background-image: linear-gradient(#804674, #D277C0);
+    color: white;
+    font-size: 21px;
+    padding: 300px 250px;
+
 }
+    
+    
+.genero-titulo {
+        padding: 24px 0;
+    }
+    
